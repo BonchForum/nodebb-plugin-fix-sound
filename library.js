@@ -12,10 +12,7 @@
 
   function endGetSettings(err, settings) {
     settings.notificationSounds = 1;
-    User.saveSettings(this.userData.uid, settings, function(err, data) {
-      console.log(data);
-      console.log(err);
-    });
+    User.saveSettings(this.userData.uid, settings, function(err, data) {});
   }
 
   module.exports = Fix;
