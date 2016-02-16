@@ -11,14 +11,8 @@
   }
 
   function endGetSettings(err, settings) {
-    console.log(err);
-    console.log(settings);
-    console.log(this.userData.uid);
-
     settings.notificationSounds = true;
-    User.saveSettings(thus.userData.uid, settings, function(err, data) {
-      console.log(data);
-    });
+    User.saveSettings(this.userData.uid, settings, function(err, data) {});
   }
 
   module.exports = Fix;
