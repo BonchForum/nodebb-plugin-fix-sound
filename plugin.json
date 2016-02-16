@@ -1,0 +1,10 @@
+{
+  "description": "Fix setting notification sound to default value \"true\" ",
+  "url": "https://github.com/BonchForum/nodebb-plugin-fix-sound",
+  "library": "./library.js",
+  "hooks": [
+    {
+      "hook": "action:user.create", "method": "userCreate"
+    }
+  ]
+}
