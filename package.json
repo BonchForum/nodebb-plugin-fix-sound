@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-fix-sound",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Enable sound notification for new user",
   "main": "library.js",
   "scripts": {
