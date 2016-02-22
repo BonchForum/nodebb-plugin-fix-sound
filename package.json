@@ -11,6 +11,11 @@
     "fix",
     "nodebb"
   ],
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BonchForum/nodebb-plugin-fix-sound"
+  },
   "author": "Loutchansky Oleg",
   "license": "MIT",
   "devDependencies": {
